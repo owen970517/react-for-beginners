@@ -27,7 +27,7 @@ function Detail() {
                 </ul>
              <h3>다운로드 횟수 : {movie.download_count}번</h3>
              <h3>좋아요 : {movie.like_count}개</h3>
-             <p> 소개 <br/>{movie.description_full}</p>
+             <p> 소개 <br/>{movie.description_full }</p>
         </div>
     )
 }
